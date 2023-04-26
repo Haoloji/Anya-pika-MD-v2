@@ -81,8 +81,7 @@
     "xfarr-api": "^1.0.3",
     "yargs": "^17.6.0",
     "youtube-yts": "2.0.0",
-    "youtubedl-core": "^4.11.3",
-    "ytdl-core": "^4.11.0"
+    "youtubedl-core": "^4.11.3"
   },
   "directories": {
     "lib": "lib",
