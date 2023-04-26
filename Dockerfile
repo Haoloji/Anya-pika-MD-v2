@@ -10,17 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN yarn global add npm
-
-RUN yarn global add yarn
-
-RUN yarn global add pm2
-
-RUN yarn global add forever
-
-RUN yarn install
-
-RUN rm -rf yarn*
+RUN npm install
 
 COPY . .
 
